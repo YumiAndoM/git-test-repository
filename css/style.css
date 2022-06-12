@@ -1,0 +1,227 @@
+@charset "UFT-8";
+
+body {
+  font-size: 18px;
+}
+
+
+/* -----------ここからnav---------- */
+nav ul {
+  /* display: flex;*/
+  justify-content: space-around;
+  background-color: rgb(211, 0, 165);
+  
+  padding: 1.5% 5%;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul li {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: auto;
+  width: 22%;
+  text-align: center;
+}
+
+nav ul li a {
+  color: #444;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* -----------ここからmain---------- */
+
+/* -------ここからSERVICE------- */
+section#top {
+  height: 600px;
+  background: url(../img/top.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+div.top_wrapper {
+  background-color: rgb(255, 0, 98);
+  padding: 1.5%;
+  margin-right: 20%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(74, 74, 74, 0.6);
+}
+
+div.top_wrapper h1 {
+  font-size: 1.8rem;
+  color: #fff;
+  display: block;
+}
+
+
+
+section#service {
+  width: 80%;
+  margin: 5% auto;
+}
+
+h2.section_title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(211, 0, 165) !important;
+  margin-bottom: 5%;
+}
+
+div.service_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.service_left img {
+  width: 80%;
+  height: auto;
+}
+
+div.service_right h3 {
+  font-size: 1.2rem;
+  color: #ff0015;
+  padding: 2.5% 0;
+}
+
+div.service_right p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+div.service_right ul {
+  margin-top: 5%;
+}
+
+div.service_right ul li {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 5%;
+  color: #555;
+}
+
+hr {
+  border-color: rgb(219, 160, 204);
+}
+
+/* -------ここからNEWS------- */
+
+section#news {
+  width: 80%;
+  margin: 5% auto;
+}
+
+div.news_wrapper {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+div.news_wrapper p {
+  line-height: 35px;
+}
+
+
+/* -------ここからPRICE------- */
+section#price {
+  width: 80%;
+  margin: 5% auto;
+}
+
+div.price_wrapper table {
+  border: double #faaefa 10px;
+  width: 100%;
+  text-align: center;
+}
+
+div.price_wrapper table th {
+  border: solid #faaefa 3px;
+  padding: 1%;
+  background-color: rgb(211, 0, 165);
+  color: #fff;
+}
+
+div.price_wrapper table tr {
+  border: solid #faaefa 3px;
+  padding: 1%;
+}
+
+
+td.td_left_title {
+  background-color: rgb(211, 0, 165);
+  color: #fff;
+  font-weight: bold;
+}
+
+div.price_wrapper table td {
+  border: solid #faaefa 3px;
+  padding: 1%;
+}
+
+
+/* -------ここからCONTACT------- */
+section#contact {
+  background: rgba(252, 208, 249, 0.726);
+}
+
+section#contact h2 {
+  padding:  5% 0;
+  margin: 0;
+  color: rgb(211, 0, 165) !important;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 60%;
+  margin-bottom: 2.5%;
+}
+
+input {
+  padding: 1%;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button_submit {
+  padding: 1.5% 5%;
+  background-color: rgb(122, 105, 105);
+  margin: 5% 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+
+/* -----------ここからfooter---------- */
+footer#footer {
+  background-color: rgb(43, 42, 42);
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+}
